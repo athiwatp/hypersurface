@@ -1,7 +1,7 @@
 ![](/src/assets/mdimage.png)
 ## What is hypersurface?
 
-Hypersurface is a space for people to ask, answer, talk, and take notes on questions that invoke insightful personal opinions. The data from these questions is displayed in real time, allowing anyone to impact and discover the current point of view.
+Hypersurface is a space for people to ask, answer, talk, and take notes on questions that invoke personal opinions. The data from these questions is displayed in real time, allowing anyone to impact and discover the current point of view.
 
 ### Features
 
