@@ -14,4 +14,4 @@ Hypersurface is a space for people to ask, answer, talk, and take notes on quest
 
 ### Technologies
 
-Hypersurface is built with [Vue](http://www.vuejs.org) + in real time with [Socket.io](http://www.socket.io). Full list at http://www.hypersurface.org/info.
+Hypersurface is built with [Vue](http://www.vuejs.org) + in real time with [Socket.io](http://socket.io). Full list at http://www.hypersurface.org/info.
