@@ -30,7 +30,7 @@
             <p><a href="http://a-s-w.design">a-s-w.desgn</a></p>
           </div>
         </div>
-        <div class="info-inner inner-small">
+        <div class="info-inner inner-small def-container">
           <div class="footer-item definition">
             <h4>hypersurface</h4>
             <p>\ˈhī-pər-ˌsər-fəs\</p>
@@ -151,5 +151,16 @@ export default {
   .definition .cite {
     padding-top: 1rem;
     font-size: .5rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .def-container {
+      display: none;
+    }
+
+    .info-links {
+      height: 80%;
+      box-sizing: border-box;
+    }
   }
 </style>
