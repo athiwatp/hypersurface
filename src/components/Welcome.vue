@@ -168,8 +168,9 @@
   }
 
   .inputs {
-    background-color: transparent;
-    box-shadow: none;
+    background-color: rgba(0,0,0,.2);
+    box-shadow: 0 0 .2rem rgba(0,0,0,.5);
+    border-radius: 5px;
     border: 0;
     color: #fff;
     font-family: 'Lato', sans-serif;
