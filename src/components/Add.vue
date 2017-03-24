@@ -236,7 +236,7 @@
             linkUrl: this.linkUrl,
             linkName: this.linkName,
             date: d.toDateString(),
-            time: d.toLocaleString('en-US', {timeZone: 'America/New_York'}),
+            time: d.toLocaleString('en-US', {timeZone: 'UTC'}),
             responses: [],
             clips: 0,
             numUsers: 0,
