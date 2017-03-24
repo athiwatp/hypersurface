@@ -1,6 +1,6 @@
 var mongoose = require('mongoose')
 
-connectionString = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/hyperdb'
+connectionString = 'mongodb://127.0.0.1:27017/hyperdb'
 
 options = {
   db: {
