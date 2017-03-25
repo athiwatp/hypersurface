@@ -53,7 +53,13 @@
   import VueTimeago from 'vue-timeago'
   import Velocity from 'velocity-animate'
 
-  Vue.use(VueTimeago)
+  Vue.use(VueTimeago, {
+    name: 'timeago',
+    locale: 'en-US',
+    locales: {
+      'en-US': require('vue-timeago/locales/en-US.json')
+    }
+  })
 
   Vue.filter('space', function (value) {
     return value.replace(/\-/g, ' ') // eslint-disable-line no-useless-escape
