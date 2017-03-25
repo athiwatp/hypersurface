@@ -236,7 +236,7 @@
             linkUrl: this.linkUrl,
             linkName: this.linkName,
             date: d.toDateString(),
-            time: d.toLocaleString('en-US'),
+            time: d.toUTCString(),
             responses: [],
             clips: 0,
             numUsers: 0,
