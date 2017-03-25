@@ -517,9 +517,9 @@ footer .page {
 
 .tour-footer {
   position: absolute;
-  top: 91%;
+  bottom: 4%;
   background-color: rgb(63, 105, 181);
-  z-index: 2;
+  z-index: 1;
 }
 
 .tour-logo {

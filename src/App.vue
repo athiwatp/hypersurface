@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" v-show="!hideNav">
     <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
@@ -43,7 +43,7 @@
     </nav>
     <footer class="footer" v-show="loggedIn">
       <div class="location">
-        <p>{{$route.path | space | cut | cap}}</p>
+        <p class="you-are-here">{{$route.path | space | cut | cap}}</p>
       </div>
         <div class="information">
           <router-link to="/info" class="vlink">
@@ -141,7 +141,8 @@
         helpMessage: 'Someone has already added that question.',
         error: false,
         success: false,
-        width: $(window).width()
+        width: $(window).width(),
+        hideNav: false
       }
     },
     computed: {
@@ -660,14 +661,13 @@
 
   .main footer {
     position: absolute;
-    top: 90%;
+    bottom: 4%;
     display: table;
     box-sizing: border-box;
     width: 100%;
     padding: .5rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    z-index: 1;
   }
 
   .main .location {
